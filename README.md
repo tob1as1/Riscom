@@ -1,3 +1,3 @@
 # Riscom
 
-bis jetzt nur .py file, bei denen wir die LLMs testen
+bis jetzt nur .py files, bei denen wir die LLMs testen
