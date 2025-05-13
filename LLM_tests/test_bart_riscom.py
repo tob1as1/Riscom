@@ -17,9 +17,10 @@ summary_ids = model.generate(inputs["input_ids"], max_length=100, num_beams=4, e
 # Ergebnis decodieren
 output = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
 
-print("fook uff:")
+print("fuxk uff:")
 print(text)
 print("\nGenerierter Text:")
 print(output)
 
 #push Kai
+#lol adri
