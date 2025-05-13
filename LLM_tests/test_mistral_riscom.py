@@ -17,3 +17,5 @@ response = requests.post(
 
 output = response.json()["response"]
 print("🔍 Antwort vom Modell:\n", output)
+
+#push Kai
