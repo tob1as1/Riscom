@@ -1,6 +1,0 @@
-prompt,response
-"The risk of heart failure is 10%. Alcohol doubles this risk.","base risk: 10%, new absolute risk: number not directly given, relative risk: number not directly given"
-"The risk of infection is 2%. Smoking triples this risk.","base risk: 2%, new absolute risk: number not directly given, relative risk: number not directly given"
-"The chance of cancer is 5%. Medication reduces it by 50%.","base risk: 5%, new absolute risk: number not directly given, relative risk: number not directly given"
-"Heart attack risk is 8%. Exercise cuts it in half.","base risk: 8%, new absolute risk: number not directly given, relative risk: number not directly given"
-"The risk of stroke is 6%. Alcohol increases the risk by 50%.","base risk: 6%, new absolute risk: number not directly given, relative risk: number not directly given"
