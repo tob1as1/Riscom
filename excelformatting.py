@@ -1,13 +1,15 @@
+
+
 import pandas as pd
 
-# === 1. Load Excel ===
-input_excel_path = "Data1.0.xlsx"  # Update path if needed
-df = pd.read_excel(input_excel_path)
+# === 1. Load the Excel file ===
+df = pd.read_excel("Data1.0.xlsx")
 
-# === 2. Define columns ===
-input_col = "Risk communication"
+# === 2. Define the text and output fields ===
+text_col = "Unnamed: 0"
 
 output_fields = [
+    'Risk communication',  # Treated like any other output field now
     'Absolute risk (base case)', 'Absolute risk (new case)',
     'Absolute number (base case)', 'Absolute number (new case)',
     'Absolute risk difference', 'Relative risk difference',
@@ -20,7 +22,7 @@ output_fields = [
     'Source (base case)', 'Source (new situation)', 'Topic and unit'
 ]
 
-# === 3. Format output fields ===
+# === 3. Format output string ===
 def format_output(row):
     lines = []
     for col in output_fields:
@@ -29,15 +31,15 @@ def format_output(row):
             lines.append(f"{col}: {val}")
     return "\n".join(lines)
 
-# === 4. Build new DataFrame ===
+# === 4. Build training DataFrame ===
 formatted_df = pd.DataFrame()
-formatted_df["input"] = df[input_col]
+formatted_df["input"] = df[text_col]
 formatted_df["output"] = df.apply(format_output, axis=1)
 
-# Drop empty entries
+# Drop rows missing input or output
 formatted_df = formatted_df.dropna(subset=["input", "output"])
 
 # === 5. Save to CSV ===
-output_csv_path = "risk_data_formatted.csv"
-formatted_df.to_csv(output_csv_path, index=False)
-print(f"✅ CSV saved to: {output_csv_path}")
+output_path = "risk_data_formatted.csv"
+formatted_df.to_csv(output_path, index=False)
+print(f"✅ Saved: {output_path} with 'input' and 'output' columns.")

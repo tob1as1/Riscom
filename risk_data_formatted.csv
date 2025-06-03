@@ -1,0 +1,764 @@
+input,output
+1,"Relative risk difference: 0.0574
+Reference class size (base case: absolute number): 35000000
+Reference class description (base case): people being stopped in traffic
+Topic and unit: increase of black people being stopped in traffic in %"
+1,"Absolute risk (base case): 1/271
+Absolute risk (new case): 1/127
+Verbal risk descriptor (change from base to new): substantially higher
+Reference class description (base case): people globally
+Reference class description (new case): people globally
+Source (new situation): 2019 data
+Topic and unit: people on the autism spectrum"
+1,"Relative risk difference: 0.37
+Reference class description (base case): bisexual nurses
+Reference class description (new case): heterosexual nurses
+Source (base case): Data from more than 90,000 nurses studied over the course of 27 years
+Source (new situation): Data from more than 90,000 nurses studied over the course of 27 years
+Topic and unit: life expectancy of bisexual nurses compared to straight nurses"
+1,"Relative risk difference: 0.2
+Reference class description (base case): lesbian nurses
+Reference class description (new case): heterosexual nurses
+Source (base case): Data from more than 90,000 nurses studied over the course of 27 years
+Source (new situation): Data from more than 90,000 nurses studied over the course of 27 years
+Topic and unit: life expectancy of lesbian nurses compared to straight nurses"
+1,"Absolute risk (base case): 0.22
+Absolute number (base case): 1700000000.0
+Verbal risk descriptor (change from base to new): could increase
+Reference class description (base case): world population
+Reference class description (new case): people with severe COVID-19
+Source (new situation): according to a study that uses data from 188 countries
+Topic and unit: people with underlying health condition having covid"
+1,"Absolute risk (base case): 0.046
+Absolute number (base case): 275000.0
+Reference class description (base case): people over 11 in Massachusetts
+Source (base case): the study authors
+Topic and unit: people who abuse opioids in %"
+1,"Absolute number (base case): 63300000.0
+Absolute number (new case): 764700000.0
+Relative risk difference: 11.09
+Reference class description (base case): viewing numbers
+Reference class description (new case): viewing numbers
+Source (base case): variety's viewing numbers data
+Source (new situation): variety's viewing numbers data
+Topic and unit: change of viewing numbers in %"
+1,"Absolute number (base case): 175.0
+Absolute number (new case): 144.0
+Relative risk difference: 0.18
+Reference class description (base case): Nebraska's overdose deaths
+Reference class description (new case): Nebraska's overdose deaths
+Topic and unit: change of Nebraska's predicted overdose deaths in %"
+1,"Absolute number (base case): 240000.0
+Verbal risk descriptor (change from base to new): incidence increasing sharply
+Reference class description (base case): Americans
+Reference class description (new case): Americans with age
+Topic and unit: Number of Americans experiencing ministrokes"
+1,"Absolute risk (base case): 0.08
+Reference class description (base case): deaths in state and federal prisons in 2019
+Source (base case): U.S Department of Justice data
+Topic and unit: suicides in state and federal prisons in %"
+1,"Absolute number (base case): 123.0
+Absolute number (new case): 286.0
+Verbal risk descriptor (change from base to new): more than twofold increase
+Reference class size (base case: absolute number): 3098948
+Reference class size (new case: absolute number): 3098948
+Reference class description (base case): individuals who never had the virus
+Reference class description (new case): individuals who had COVID
+Source (base case): the study
+Source (new situation): the study
+Topic and unit: number of people who had amputations with COVID vs without COVID"
+1,"Relative risk difference: 0.41
+Reference class description (base case): woman who are heavy drinkers
+Reference class description (new case): women who are heavy drinkers
+Source (base case): Dr. Lisa Saul
+Source (new situation): Dr. Lisa Saul
+Topic and unit: change of woman who drink heavily since the pandemic in %"
+1,"Absolute risk (base case): 0.14
+Absolute number (base case): 1300000.0
+Verbal risk descriptor (change from base to new): proportion is expected to rise
+Reference class description (base case): population in Israel 
+Reference class description (new case): population in Israel 
+Source (base case): an IDI study puplished last year
+Topic and unit: amount of Haredi Jews in Israel in % and absolute numbers"
+1,"Absolute number (base case): 25974.0
+Absolute number (new case): 350.0
+Verbal risk descriptor (change from base to new): significant drop
+Reference class description (base case): Americans
+Reference class description (new case): Americans
+Source (new situation): Centers of Desease Control and Prevention 
+Topic and unit: Americans dying from COVID each week in absolute numbers"
+1,"Absolute risk (base case): 0.87
+Absolute number (base case): 17100.0
+Reference class description (base case): melanoma cases in the UK 
+Source (base case): The study
+Topic and unit: relationship between excessive UV radiation exposure and melanoma cases in percent and absolute numbers "
+1,"Verbal risk descriptor (base case): over half of new parents
+Reference class description (base case): new parents
+Source (base case): a major study [https://www.who.int/news/item/22-02-2022-more-than-half-of-parents-and-pregnant-women-exposed-to-aggressive-formula-milk-marketing-who-unicef] from WHO and UNICEF 
+Topic and unit: exposure of new parents to promotions of formula milk companies"
+1,"Absolute risk (new case): 1/10
+Relative risk difference: 3
+Reference class description (base case): medicines in low- and  middle-income countries being substandard or falsified
+Reference class description (new case): medicines in low- and  middle-income countries being substandard or falsified
+Topic and unit: change of medicines in low- and  middle-income countries being substandard or falsified"
+1,"Absolute risk (base case): 0.93
+Absolute risk (new case): 97%
+Verbal risk descriptor (base case): highly effictive
+Verbal risk descriptor (new situation): highly effective
+Reference class description (base case): people with one dose of measles vaccine
+Reference class description (new case): people with two doses of measles vaccine
+Source (base case): CDC data
+Source (new situation): CDC data
+Topic and unit: immunity provided by measles vaccine in %"
+0,
+1,"Absolute risk (base case): 0.76
+Reference class description (base case): consumers who asked for lower interest rates on their credit cards
+Source (base case): LendingTree
+Topic and unit: consumers who askes for lower interest rates on credit cards in %"
+0,
+1,"Relative risk difference: 5.5%
+Reference class description (base case): children in 2022
+Reference class description (new case): children in 2023
+Topic and unit: increase of child lead poisoning cases in % "
+1,"Absolute number (base case): 305800.0
+Absolute number (new case): 404200.0
+Verbal risk descriptor (change from base to new): concerning rise
+Reference class description (base case): newborns
+Reference class description (new case): newborns
+Topic and unit: newborns affected by SCD"
+1,"Absolute risk (base case): 0.25
+Absolute risk (new case): 18%
+Verbal risk descriptor (change from base to new): significantly higher
+Reference class description (base case): American men under 35
+Reference class description (new case): US population
+Source (base case): the report
+Source (new situation): the report
+Topic and unit: lonelyness of men under 35 in america in %"
+1,"Absolute risk (base case): 0.124
+Absolute number (base case): 20000000.0
+Absolute number (new case): 1500000.0
+Reference class description (base case): people older than 40 years in the United States
+Reference class description (new case): people older than 40 years in the United States
+Topic and unit: amount of people with AMD in early and late stages "
+1,"Absolute risk (base case): 0.074
+Absolute number (new case): 17000000.0
+Verbal risk descriptor (change from base to new): number of cases would quadruple
+Reference class description (base case): individuals aged 60 and older in India
+Reference class description (new case): individuals aged 60 and older in India
+Source (base case): the Longitudinal Aging Study in India (LASI) and LASI-Diagnostic Assessment for Dementia
+Source (new situation): the Longitudinal Aging Study in India (LASI) and LASI-Diagnostic Assessment for Dementia
+Topic and unit: dementia cases of people over 60 in india in %"
+1,"Absolute risk (base case): 2025-10-01 00:00:00
+Reference class description (base case): patients who are treated for the deadliest heart attacks
+Topic and unit: likelihood of cardigenic shock within patients who are treated for the deadliest heart attacks"
+1,"Relative risk difference: 0.26
+Reference class description (base case): people treatet for STEMI-related cardiogenic shock
+Reference class description (new case): people treatet for STEMI-related cardiogenic shock
+Source (base case): The New England Journal of Medicine in 2024
+Source (new situation): The New England Journal of Medicine in 2024
+Topic and unit: reduced mortality with heath pump treatment in %"
+1,"Relative risk difference: 0.51
+Reference class description (base case): therapy patients suffering from depression
+Reference class description (new case): therapy patients suffering from depression after participating in Dartmouth's Therabot experiment
+Topic and unit: reduction of symptoms of  patients suffering from depression after participating in Dartmouth's Therabot experiment in %"
+1,"Relative risk difference: 0.31
+Reference class description (base case): therapy patients suffering from anxiety
+Reference class description (new case): therapy patients suffering from anxiety after participating in Dartmouth's Therabot experiment
+Topic and unit: drop of symptoms of  patients suffering from anxiety after participating in Dartmouth's Therabot experiment in %"
+1,"Relative risk difference: 0.19
+Reference class description (base case): therapy patients suffering from eating disorders
+Reference class description (new case): therapy patients suffering from eating disorders after participating in Dartmouth's Therabot experiment
+Topic and unit: reduction of symptoms of  patients suffering from an eating disorder after participating in Dartmouth's Therabot experiment in %"
+1,"Absolute risk (base case): 0.057
+Absolute risk (new case): 11,10%
+Verbal risk descriptor (change from base to new): nearly doubling
+Reference class description (base case): deaths from chronic non-communicable deseases in China
+Reference class description (new case): deaths from chronic non-communicable deseases in China
+Topic and unit: overweight and obesity increasing as a cause of death from chronic non-communicable deseases in China"
+1,"Verbal risk descriptor (change from base to new): more likely
+Reference class description (base case): adults aged 19 to 25 living in states that had the biggest drops in adult Medicaid enrollment
+Reference class description (new case): adults aged 19 to 25 living in states that had the smallest drops in adult Medicaid enrollment
+Source (base case): They
+Source (new situation): They
+Topic and unit: young adults stopping filling prescriptions for chronic desease living in states that had the biggest drops in adult Medicaid enrollment, compared with those living in states with the smallest drops."
+1,"Absolute risk (base case): 0.4
+Absolute number (base case): 3700.0
+Reference class description (base case): men with melamomas
+Source (base case): The latest data (from 2018-2021) 
+Topic and unit: percentage of melanomas in men being diagnosed on the torso"
+0,
+1,"Absolute number (base case): 110000.0
+Absolute number (new case): 80000.0
+Relative risk difference: 0.27
+Verbal risk descriptor (change from base to new): largest one-year drop ever recorded
+Reference class description (base case): people in United States
+Reference class description (new case): people in United States
+Source (base case): provisional data released by the Centers for Disease Control and Prevention
+Source (new situation): provisional data released by the Centers for Disease Control and Prevention
+Topic and unit: decrease of drug overdose deaths in %"
+1,"Absolute risk (new case): 1626,5/1000
+Relative risk difference: 66,2/1000
+Reference class description (base case): women in the US in 2004
+Reference class description (new case): women in the US in 2024
+Topic and unit: fertility rates per 1000 women in the US"
+1,"Relative risk difference: 0.18
+Reference class description (base case): women with the lowest exposure
+Reference class description (new case):  women who consume more than two servings of high-pesticide fruits or vegetables
+Topic and unit: change of likelihood to become pregnant when consuming more than two servings of high-pesticide fruits or vegetables "
+1,"Relative risk difference: 0.26
+Reference class description (base case): women with the lowest exposure
+Reference class description (new case):  women who consume more than two servings of high-pesticide fruits or vegetables
+Topic and unit: change of likelihood to have a live birth when consuming more than two servings of high-pesticide fruits or vegetables "
+1,"Absolute number (new case): 20000000.0
+Absolute number difference: 19200000.0
+Reference class size (new case: absolute number): 200000000
+Reference class description (base case): Nigerians
+Reference class description (new case): Nigerians
+Source (base case): available data
+Source (new situation): available data
+Topic and unit: Health insurance coverage in Nigeria"
+1,"Absolute risk (base case): 0.055
+Absolute risk (new case): 3%
+Reference class description (base case): worldwide greenhouse gases
+Reference class description (new case): worldwide greenhouse gases
+Topic and unit: U.S share of global power sector emmisions compared to worldwide greenhouse gasses in %"
+1,"Absolute risk (base case): 2025-04-01 00:00:00
+Relative risk difference: 0.1
+Verbal risk descriptor (change from base to new): much lower rate
+Reference class description (base case): young people below the age of 30
+Reference class description (new case): older adults aged 65 and above
+Source (base case): a survey conducted by Gallup and Meta between 2022 and 2023 in 142 countries
+Source (new situation): a survey conducted by Gallup and Meta between 2022 and 2023 in 142 countries
+Topic and unit: amount of young people feeling lonely vs. old people feeling lonely"
+1,"Absolute risk (base case): 0.081
+Absolute risk (new case): 16,20%
+Verbal risk descriptor (change from base to new): rising sharply
+Reference class description (base case): secondary school students
+Reference class description (new case): secondary school students
+Source (base case): the Health Ministry's National Health and Morbidity Survey 2022
+Source (new situation): the Health Ministry's National Health and Morbidity Survey 2022
+Topic and unit: loneliness among secondray school students in %"
+1,"Absolute number (base case): 45.0
+Absolute number (new case): 580.0
+Relative risk difference: 11.88
+Reference class description (base case): Hyde Park contamination samples
+Reference class description (new case): Hyde Park contamination samples
+Source (base case): shocking new data
+Source (new situation): schocking new data
+Topic and unit: rise in faecal contamination and E.coli levels in Hyde Park London"
+1,"Absolute risk (base case): 30/1000
+Absolute risk (new case): 33/1000
+Absolute number (base case): 30.0
+Absolute number (new case): 33.0
+Relative risk difference: 0.1
+Reference class size (base case: absolute number): 1000
+Reference class size (new case: absolute number): 1000
+Reference class description (base case): people not living in a city with high air pollution
+Reference class description (new case): people living in a city with high air pollution
+Topic and unit: risk of lung disease when living in a city with high air pollution by person"
+1,"Absolute number (base case): 356238.0
+Reference class description (base case): people suffering from DEHP exposure
+Topic and unit: people who died from DEHP "
+1,"Absolute risk (base case): 0.84
+Reference class description (base case): pregnant women 
+Source (base case): Lancet eBioMedicine
+Topic and unit: pregnant women with iron deficiency"
+1,"Absolute number (base case): 125.0
+Absolute number (new case): 333.0
+Relative risk difference: 1.66
+Reference class description (base case): people who died from fentanyl "
+1,"Verbal risk descriptor (base case): increasing likelohood
+Reference class description (base case): development of economic market
+Topic and unit: impact of trade war and high interest rates"
+1,"Absolute risk difference: 0.75
+Verbal risk descriptor (base case): increase
+Reference class description (base case): development of economic market
+Topic and unit: impact of inflation and tarrifs on the economy"
+1,"Verbal risk descriptor (base case): may
+Reference class description (new case): Pakistan economy
+Source (base case): Ammar
+Topic and unit: impact of tarrifs on Pakistan"
+1,"Verbal risk descriptor (base case): unlikely
+Source (base case): Mattias Martinsson
+Topic and unit: impact of the unpredictability of the current U.S government "
+1,"Verbal risk descriptor (base case): believed to
+Topic and unit: contribution of other tech companies to NVDA´s revenue"
+1,"Absolute risk (base case): 0.07
+Verbal risk descriptor (base case): could
+Reference class description (new case): global GDP
+Source (base case): Goldman Sachs
+Topic and unit: development of global GDP"
+1,"Verbal risk descriptor (base case): could
+Topic and unit: risks of an AI bubble overcapacity"
+1,"Absolute risk difference: 5.2%
+Verbal risk descriptor (base case): could
+Topic and unit: U.S. economic output"
+0,Source (base case): economists
+1,"Verbal risk descriptor (base case): unlikely
+Reference class description (base case): the economy
+Topic and unit: economic growth"
+1,"Verbal risk descriptor (base case): have raised the odds
+Reference class description (base case): the economy
+Source (base case): economists
+Topic and unit: economic recession"
+1,"Verbal risk descriptor (base case): likely
+Reference class description (base case): the economy
+Source (base case): Barclays
+Topic and unit: recession"
+0,
+0,
+1,"Verbal risk descriptor (base case): 50% likelihood
+Reference class description (base case): scenario of some tariffs and trade uncertainty
+Source (base case): Johnson Associates
+Topic and unit: Wall Street bonuses in %"
+1,"Verbal risk descriptor (base case): 30% chance
+Reference class description (base case): scenario of broad trade war
+Topic and unit: Wall Street bonuses in %"
+1,"Verbal risk descriptor (base case): could sink between 5% to 10%
+Reference class description (base case): last year’s advisory bonuses
+Topic and unit: Bonuses in advisory in %"
+1,"Verbal risk descriptor (base case): could plummet between 10% and 20% 
+Reference class description (base case): equity underwriting bonuses
+Topic and unit: Development of equity underwriting bonuses in %"
+1,"Verbal risk descriptor (base case): will likely remain near 7% or slightly higher
+Reference class description (base case): mortgage rates in near term
+Source (base case): Sturtevant 
+Topic and unit: Mortgage interest rates in %"
+1,"Verbal risk descriptor (base case): 98% chance
+Reference class description (base case): interest rate changes before announcement
+Source (base case): Federal Open Market Committee
+Topic and unit: Interest rates in %"
+1,"Absolute number (new case): 3123.0
+Relative risk difference: 2x
+Reference class description (base case): 10 year average of Valley Fever cases in California 
+Reference class description (new case): Valley Fever cases in California during Q1
+Topic and unit: Number of reported Valley Fever cases in California in Q1"
+1,"Absolute number (base case): 22.0
+Absolute number (new case): 217.0
+Reference class description (base case): Valley Fever cases in Monterey County Q1 2023
+Reference class description (new case): Valley Fever cases in Monterey County Q1 2025
+Topic and unit: Reported Valley Fever cases in Monterey County in Q1"
+1,"Absolute number (base case): 76.0
+Absolute number (new case): 390.0
+Relative risk difference: 5x
+Reference class description (base case): US counties with seropositive dogs in 2012
+Reference class description (new case): US counties with seropositive dogs in 2022
+Topic and unit: Number of US counties with canine serologic evidence of Coccidioides"
+1,"Verbal risk descriptor (new situation): at higher risk
+Reference class description (new case): certain occupations and regions
+Topic and unit: Risk of Valley Fever by occupation and region"
+1,"Absolute risk difference: 0.01
+Relative risk difference: 0.04
+Reference class description (new case): road traffic at higher speeds
+Source (base case): World Health Organization
+Source (new situation): World Health Organization
+Topic and unit: Crash likelihood and severity per % increase in average speed in %"
+1,"Relative risk difference: -0.7
+Reference class description (base case): city before automated enforcement program
+Reference class description (new case): city after 30 years of speed camera implementation and expansion
+Topic and unit: Speeding incidents over 30 years of camera enforcement (%)"
+1,"Relative risk difference: 4.5x
+Verbal risk descriptor (change from base to new): chance of fatality increasing
+Reference class description (base case): pedestrians hit at 50 km/h
+Reference class description (new case): pedestrians hit at 65 km/h
+Topic and unit: Pedestrian fatality risk by impact speed "
+1,"Relative risk difference: -0.2
+Reference class description (base case): people with type 2 diabetes and CKD receiving placebo
+Reference class description (new case): people with type 2 diabetes and CKD receiving semaglutide
+Source (base case): The FLOW
+Source (new situation): The FLOW
+Topic and unit: Kidney-specific endpoint risk in CKD and diabetes patients in %"
+1,"Absolute risk (base case): 0.14
+Reference class description (base case): patients with Lyme disease
+Topic and unit: Risk of developing PTLD after Lyme disease %"
+1,"Verbal risk descriptor (base case): higher risk for severe disease
+Reference class description (base case): people in the U.S. with at least one risk-enhancing condition
+Topic and unit: Risk of severe disease due to underlying condition in %"
+1,"Relative risk difference: 0.28
+Reference class description (base case): 	prior weekly COVID-19 cases in Singapore
+Reference class description (new case): recent weekly COVID-19 cases in Singapore
+Topic and unit: Weekly COVID-19 case trend in Singapore in %"
+0,
+1,"Relative risk difference: 0.5
+Reference class description (base case): men with heart attack symptoms
+Reference class description (new case): women with heart attack symptoms
+Topic and unit: Likelihood of incorrect initial heart attack diagnosis by gender in %"
+1,"Relative risk difference: 0.6
+Reference class description (base case): women likelihood of dying before age 75
+Reference class description (new case): men likelihood of dying before age 75
+Topic and unit: Risk of dying before age 75 by gender in %"
+0,
+1,"Relative risk difference: 4%-6%
+Reference class description (base case): men after 2012 USPSTF downgrade
+Reference class description (new case): men with advanced prostate cancer diagnoses
+Topic and unit: Annual trend in advanced prostate cancer diagnoses in %"
+1,"Absolute risk (base case): (8,6-57)/100000
+Reference class size (base case: absolute number): 100000
+Reference class description (base case): hospitalized children
+Topic and unit: Pulmonary embolism rate in hospitalized children per 100,000"
+1,"Absolute risk (base case): (0,14-0,9)/100000
+Reference class size (base case: absolute number): 100000
+Reference class description (base case): general population
+Topic and unit: Pulmonary embolism rate in general population (per 100,000)"
+1,"Relative risk difference: -0.12
+Reference class description (base case): participants who did not drink coffee regularly
+Reference class description (new case): participants who drank between half a cup and three cups per day
+Topic and unit: Risk of death from any cause by coffee consumption in %
+"
+1,"Relative risk difference: -0.17
+Reference class description (base case): participants who did not drink coffee regularly
+Reference class description (new case): participants who drank between half a cup and three cups per day
+Topic and unit: Risk of dying from heart disease by coffee intake in %"
+1,"Relative risk difference: -0.21
+Reference class description (base case): participants who did not drink coffee regularly
+Reference class description (new case): participants who drank between half a cup and three cups per day
+Topic and unit: Risk of stroke by level of coffee consumption %"
+1,"Absolute risk (base case): 0.13
+Absolute risk (new case): 55%
+Reference class size (new case: absolute number): 886 million
+Reference class description (base case): India population with internet
+Reference class description (new case): India population with internet
+Topic and unit: Internet penetration in India in %"
+1,"Relative risk difference: 0.52
+Reference class description (base case): adolescents before the pandemic
+Reference class description (new case): adolescents before the pandemic
+Topic and unit: Adolescent screen time during the pandemic"
+1,"Verbal risk descriptor (change from base to new): more likely to experience
+Reference class description (base case): people in lower-stress or higher-control jobs
+Reference class description (new case): people in high-pressure, low-control jobs
+Topic and unit: Risk of stress-related health problems"
+1,"Relative risk difference: 0.16
+Reference class size (new case: absolute number): 127000
+Reference class description (base case): cardiac deaths in Massachusetts from 2014 to 2019
+Reference class description (new case): cardiac deaths in Massachusetts during the pandemic (2020–2023)
+Source (base case): Dr. Jason H. Wasfy
+Source (new situation): Dr. Jason H. Wasfy
+Topic and unit: Change in cardiac death rate during pandemic years (% increase)"
+1,"Relative risk difference: -0.15
+Reference class size (base case: absolute number): 17000
+Reference class size (new case: absolute number): 17000
+Reference class description (base case): participants receiving usual medical advice
+Reference class description (new case): participants receiving intervention to lower blood pressure
+Topic and unit: Risk of developing dementia linked to blood pressure intervention (%)"
+1,"Relative risk difference: -0.16
+Reference class size (base case: absolute number): 17000
+Reference class size (new case: absolute number): 17000
+Reference class description (base case): participants receiving usual medical advice
+Reference class description (new case): participants receiving intervention to lower blood pressure
+Topic and unit: Risk of cognitive impairment linked to blood pressure intervention (%)"
+1,"Verbal risk descriptor (change from base to new): a greater risk of dying
+Reference class description (base case): adults in the U.S. with only one or neither condition
+Reference class description (new case): adults in the U.S. with both high blood pressure and Type 2 diabetes
+Source (base case): Columbia University’s Mailman School of Public Health
+Source (new situation): Columbia University’s Mailman School of Public Health
+Topic and unit: Risk of dying by combination of high blood pressure and Type 2 diabetes "
+1,"Absolute risk (base case): 0.06
+Absolute risk (new case): 12%
+Verbal risk descriptor (change from base to new): doubled
+Reference class size (base case: absolute number): 200 million
+Reference class size (new case: absolute number): 200 million
+Reference class description (base case): U.S. adults with both diabetes and hypertension (1999)
+Reference class description (new case): U.S. adults with both diabetes and hypertension (2018)
+Topic and unit: Prevalence of both diabetes and hypertension in U.S. adults (%)"
+1,"Relative risk difference: 0.19
+Reference class description (base case): people without prediabetes or high blood pressure
+Reference class description (new case): people with both prediabetes and slightly high blood pressure
+Topic and unit: Risk of dying "
+1,"Relative risk difference: -0.5
+Reference class description (base case): people with lower lutein and zeaxanthin intake
+Reference class description (new case): people who consumed the highest levels of lutein and zeaxanthin
+Topic and unit: Risk of developing Alzheimer’s by dietary intake of lutein and zeaxanthin (%)"
+1,"Relative risk difference: 0.79
+Verbal risk descriptor (change from base to new): more likely to develop
+Reference class description (base case): white participants who rarely or never used sleep medications
+Reference class description (new case): white participants who regularly used sleep medications
+Topic and unit: Risk of developing dementia by sleep medication use (relative risk, %)"
+1,"Verbal risk descriptor (change from base to new): three times more likely
+Reference class description (base case): Black participants using sleep medications
+Reference class description (new case): white participants using sleep medications
+Topic and unit: Sleep aid use frequency and dementia risk by color of skin"
+1,"Absolute risk (base case): 16/100
+Absolute risk (new case): 19/100
+Reference class size (base case: absolute number): 208000
+Reference class size (new case: absolute number): 72000
+Reference class description (base case): non-pregnant women with COVID-19
+Reference class description (new case): pregnant women with COVID-19
+Topic and unit: Risk of developing long COVID 180 days after infection %"
+1,"Relative risk difference: 0.31
+Verbal risk descriptor (change from base to new): higher chance of 
+Reference class description (base case): men with COVID-19
+Reference class description (new case): women with COVID-19
+Source (base case): Jama Network Open
+Source (new situation): Jama Network Open
+Topic and unit: Risk of developing long COVID by gender in %"
+1,"Relative risk difference: -0.58
+Verbal risk descriptor (change from base to new): reduced risk
+Reference class description (base case): adults with COVID-19 who were not vaccinated before infection
+Reference class description (new case): adults with COVID-19 who had ≥1 vaccine dose before infection
+Topic and unit: Risk of long COVID by vaccination status prior to infection in %"
+1,"Relative risk difference: -0.5
+Reference class description (base case): unvaccinated patients treated for long COVID at Mayo Clinic
+Reference class description (new case): vaccinated patients treated for long COVID at Mayo Clinic
+Topic and unit: Likelihood of abdominal pain in long COVID by vaccination status in %"
+1,"Relative risk difference: -0.78
+Reference class description (base case): unvaccinated individuals within 30 days post SARS-CoV-2 infection
+Reference class description (new case): vaccinated individuals within 30 days post SARS-CoV-2 infection
+Topic and unit: Risk of venous thromboembolism post-COVID by vaccination status in %"
+1,"Relative risk difference: -0.47
+Reference class description (base case): unvaccinated individuals within 30 days post SARS-CoV-2 infection
+Reference class description (new case): vaccinated individuals within 30 days post SARS-CoV-2 infection
+Topic and unit: Risk of arterial thrombosis post-COVID by vaccination status in %"
+1,"Relative risk difference: -0.55
+Reference class description (base case): unvaccinated individuals within 30 days post SARS-CoV-2 infection
+Reference class description (new case): vaccinated individuals within 30 days post SARS-CoV-2 infection
+Topic and unit: Risk of heart failure post-COVID by vaccination status in %"
+1,"Verbal risk descriptor (change from base to new): increased the risk of
+Reference class description (base case): people without the listed risk factors
+Reference class description (new case): females, older adults, people who are overweight, or who smoke
+Topic and unit: Risk of developing long COVID in %"
+1,"Verbal risk descriptor (change from base to new): significantly lower risk
+Reference class description (base case): people who were not vaccinated against COVID
+Reference class description (new case): people who had been vaccinated against COVID
+Topic and unit: Risk of developing long COVID by vaccination status in %"
+1,"Verbal risk descriptor (change from base to new): odds of developing POTS are higher
+Reference class description (base case): vaccinated patients in 90 days before exposure
+Reference class description (new case): vaccinated patients in 90 days after exposure
+Topic and unit: Risk of developing POTS before vs. after vaccination "
+1,"Absolute risk (base case): 0.13
+Reference class description (base case): among 55- to 64-year-olds worldwide
+Source (base case): eBioMedicine
+Topic and unit: cardiovascular deaths attributed to phthalates in %"
+1,"Absolute risk (base case): 0.14
+Absolute risk (new case): 38%
+Reference class description (base case): adults in USA
+Reference class description (new case): reproductive age women in USA
+Source (base case): Iron deficient"
+1,"Relative risk difference: 3x
+Reference class description (base case): people who do not drink artificially sweetened soft drinks
+Reference class description (new case): people who consume 1 can/day of artificially sweetened soft drinks
+Topic and unit: Risk of stroke based on consumption of artificially sweetened soft drinks "
+1,"Absolute number (base case): 70.0
+Absolute number (new case): 0.0
+Verbal risk descriptor (base case):  significant
+Reference class description (base case): human with birld flu
+Topic and unit: bird flu"
+1,"Relative risk difference: 0.39
+Verbal risk descriptor (change from base to new): more likely
+Reference class size (base case: absolute number): 10000
+Reference class size (new case: absolute number): 10000
+Reference class description (base case): Australian women those with the highest proportion of UPFs in their diet
+Reference class description (new case): Australian women those with the lowest proportion of UPFs in their diet
+Topic and unit: Risk of developing high blood pressure by UPF intake"
+1,"Absolute number (base case): 2500000.0
+Reference class description (base case): deaths to invasive fungal infections worldwide
+Topic and unit: invasive fungal infections that lead to death"
+1,"Absolute risk (base case): 0.38
+Absolute risk (new case): 0,16
+Reference class size (base case: absolute number): 112
+Reference class size (new case: absolute number): 56
+Reference class description (base case): participants treated
+Reference class description (new case): placebo group
+Topic and unit: positive effects, not just on steatosis but also on fibrosis"
+1,"Absolute risk (new case): 1/4
+Relative risk difference: 0.2
+Verbal risk descriptor (change from base to new): upward trend
+Reference class description (base case): U.S. adults in 2020
+Reference class description (new case): U.S. adults in 2023
+
+Topic and unit: chronic pain"
+1,"Absolute risk (new case): 8,5%
+Relative risk difference: 0.069
+Verbal risk descriptor (change from base to new): upward trend
+Reference class description (base case): U.S. adults in 2020
+Reference class description (new case): U.S. adults in 2023
+
+Topic and unit: Prevalence of chronic and activity-limiting pain in U.S. adults"
+1,"Absolute risk (base case): 0.03
+Absolute number difference: 935.0
+Verbal risk descriptor (change from base to new): rose to
+Reference class description (base case): 30 states
+Reference class description (new case): 30 states
+Topic and unit: measles vaccination"
+1,"Absolute risk (base case): 2025-10-07 00:00:00
+Reference class size (base case: absolute number): americans 
+Reference class description (base case): in vitro fertilization (IVF)"
+1,"Absolute number (base case): 72.0
+Verbal risk descriptor (base case): significantly higher
+Reference class size (base case: absolute number): 700
+Reference class description (base case): 700 queer participants
+Topic and unit: queer participants"
+1,"Absolute risk (new case): 0,53
+Absolute number (base case): 830.0
+Reference class size (base case: absolute number): 9832
+Reference class size (new case: absolute number): 830
+Reference class description (new case): patients had positive patch tests"
+1,"Absolute number (base case): 59.0
+Reference class size (base case: absolute number): 328
+Topic and unit: DNA from the kidneys"
+1,"Absolute risk (base case): 0.3
+Relative risk difference: 0.23
+Verbal risk descriptor (change from base to new): lower risk
+Reference class size (base case: absolute number): 1300000
+Reference class size (new case: absolute number): 1300000
+Topic and unit: Shingles vaccine"
+1,"Absolute risk (base case): 0.47
+Absolute risk (new case): 15%
+Reference class size (base case: absolute number): 5123
+Reference class size (new case: absolute number): 5123
+Reference class description (base case): fixed or lower incomes
+Reference class description (new case): upper-income adults
+Topic and unit:  eating healthy meals"
+1,"Absolute number (base case): 150000.0
+Verbal risk descriptor (base case): high rate
+Reference class description (base case): young adults aged 15 to 39
+Topic and unit: the incidence of cancer among adolescents"
+1,"Absolute number (base case): 3000000.0
+Verbal risk descriptor (base case): risk increasing significantly
+Reference class description (base case): americians 
+Topic and unit: Americans currently live with glaucoma"
+1,"Verbal risk descriptor (base case): significant and modifiable risk factor
+Reference class size (base case: absolute number): 35
+Topic and unit: with confirmed sarcoidosis and long-term occupational exposure to RCS"
+1,"Verbal risk descriptor (base case): greater risk
+Topic and unit: following disasters"
+1,"Absolute risk (base case): 0.004
+Verbal risk descriptor (change from base to new): more common
+Reference class description (base case): babies and young children
+Reference class description (new case): older children, teenagers, and adults
+Source (base case): Kids with Food Allergies
+Topic and unit: soy allergy"
+1,"Relative risk difference: 0.3
+Topic and unit: mammography screening costs "
+1,"Absolute risk (base case): 2025-05-01 00:00:00
+Absolute risk (new case): 1/7
+Reference class description (base case): women
+Reference class description (new case): men
+Topic and unit: sexual violence as a child"
+1,"Relative risk difference: 2025-03-02 00:00:00
+Verbal risk descriptor (change from base to new): higher risk
+Reference class description (base case): previous generations
+Reference class description (new case): millennials and Gen X
+Topic and unit: certain cancers"
+1,"Verbal risk descriptor (base case): slowing the rising number
+Reference class size (base case: absolute number): 34000
+Source (base case): the journal Nature Medicine
+Topic and unit: managing blood pressure"
+1,"Absolute number (base case): 57000000.0
+Absolute number (new case): 150000000.0
+Relative risk difference: 3
+Verbal risk descriptor (change from base to new): triple
+Reference class description (base case): In 2019 people with dementia
+Reference class description (new case): In 2050 people with dementia
+Topic and unit: Dementia"
+0,
+0,
+1,"Absolute number (base case): 3.0
+Verbal risk descriptor (base case): sharply increased
+Reference class description (base case): new jersey
+Topic and unit: cases of measles"
+1,"Absolute risk (base case): 0.93
+Absolute risk (new case): 97%
+Reference class description (base case): one dose
+Reference class description (new case): two doses
+Topic and unit: the MMR (measles, mumps and rubella) vaccine"
+1,"Verbal risk descriptor (base case): potential increase
+Topic and unit: COVID-19"
+1,"Verbal risk descriptor (base case): many risks
+Source (base case): Dr Baghel
+Topic and unit: medication"
+1,"Absolute risk (base case): 0.28
+Reference class description (base case): survivors
+Topic and unit: D-19 may experience persistent cognitive difficulties"
+1,"Verbal risk descriptor (base case): significant difference
+Topic and unit: Early diagnosis"
+1,"Absolute risk (base case): 0.67
+Absolute risk (new case): 0,72
+Reference class description (base case): females
+Reference class description (new case): males
+Source (base case): the Institute for Health Metrics and Evaluation (IHME) at the University of Washington School of Medicine in Seattle
+Source (new situation): the Institute for Health Metrics and Evaluation (IHME) at the University of Washington School of Medicine in Seattle
+Topic and unit: sexually abused during childhood"
+1,"Absolute risk (base case): 2025-03-01 00:00:00
+Reference class description (base case): major depression
+Topic and unit: major depression"
+0,
+0,
+1,"Verbal risk descriptor (base case): growing risk
+Reference class size (base case: absolute number): 2400000
+Reference class description (base case): palestinians
+Topic and unit: humanitarian organisations have warned of dwindling supplies of everything "
+1,"Absolute risk (base case): 0.5
+Relative risk difference: 0.1
+Verbal risk descriptor (change from base to new): rise
+Reference class description (new case): wordwide
+Source (base case): worldwide
+Topic and unit: gastritis cases"
+1,"Absolute risk (base case): 0.576
+Absolute risk (new case): 0,229
+Topic and unit: screening results"
+1,"Relative risk difference: 0.06
+Verbal risk descriptor (change from base to new): decreasing probability
+Reference class description (base case): Patients who underwent treatment
+Topic and unit: developing Alzheimer’s"
+1,"Relative risk difference: 0.13
+Verbal risk descriptor (change from base to new): decreasing probability
+Reference class description (base case): Patients who underwent treatment
+Topic and unit: developing Alzheimer’s"
+1,"Absolute number (base case): 51000.0
+Relative risk difference: 3
+Verbal risk descriptor (change from base to new): higher risk
+Reference class description (base case): women in the general population
+Reference class description (new case): women with DCIS
+Source (base case): ductal carcinoma in situ (DCIS)
+Source (new situation): ductal carcinoma in situ (DCIS)
+Topic and unit: breast cancer"
+0,Reference class description (base case): mRNA-related jobs
+1,"Absolute risk (base case): 0.66
+Absolute risk (new case): 45%
+Verbal risk descriptor (new situation): potentially at risk
+Reference class description (new case): those U.S. positions
+Topic and unit:  mRNA-related jobs"
+1,"Verbal risk descriptor (base case): millions of people
+Reference class description (base case): people in the U.S.
+Topic and unit: seasonal allergies"
+1,"Verbal risk descriptor (base case):  increased risk
+Reference class size (base case: absolute number): 100000
+Reference class description (base case): participants
+Source (base case): The New England Journal of Medicine
+Topic and unit: sodium consumption"
+1,"Absolute risk (base case): 2025-09-01 00:00:00
+Absolute number (base case): 26.7
+Absolute number (new case): 29.8
+Verbal risk descriptor (change from base to new): increasing
+Reference class description (base case): people in Indien
+Source (base case): DALYs (Disability-Adjusted Life Years)
+Source (new situation): DALYs (Disability-Adjusted Life Years)
+Topic and unit: Cancer"
+1,"Absolute number (new case): 235000000.0
+Relative risk difference: 0.02
+Reference class description (new case): Vanuatu's economy if torusim recovers
+Source (new situation): according to an Asian Development Bank report published last month
+Topic and unit: cost of torusim recovery in USD  "
+1,"Absolute risk (base case): 0.97
+Reference class description (base case): Atlantic hurricane season spans June 1 to Nov. 30
+Topic and unit: hurricane season in %"
+1,"Absolute risk (base case): 1
+Verbal risk descriptor (base case): in my experiance
+Topic and unit: 2025 Lincoln Navigator earthquake safety in %"
+0,
+0,
+1,"Absolute risk (base case): 0.044
+Absolute risk (new case): 0.05
+Absolute number (base case): 652424.0
+Absolute number (new case): 746185.0
+Reference class description (base case): properties across the country 
+Reference class description (new case): prperties across the country 2050
+Source (base case): Climate Council
+Source (new situation): Climate Council"
+0,
+1,"Absolute risk (new case): 0.4
+Absolute risk difference: 2x
+Reference class description (base case): area in U.S. under rought conditions of last year
+Reference class description (new case): area in U.S. under rought conditions this year
+Source (new situation): Pastelok
+Topic and unit: flammable landscape due to high temperature in %"
