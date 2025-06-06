@@ -90,7 +90,7 @@ Now, please analyze the provided text and respond only with the JSON object.
 
 
 # Kann diesen Schritt überspringen, falls ich keine JSON-Datei brauche 
-    # 4 JSON-Datei erzeugen
+    # 4 JSON-Datei erzeugen -> LLM Output als JSON gespeichert
     os.makedirs("output", exist_ok=True)
     file_name = "4risk_example"
     with open(f"output/{file_name}.json", "w") as f:
