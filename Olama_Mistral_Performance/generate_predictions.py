@@ -1,8 +1,14 @@
+import pandas as pd
+from tqdm import tqdm
 from ollama import chat
 
-# 1 Prompt für die Analyse vorbereiten
-if risk_comm := input("Enter the sentence containing risk communication: "):
-    prompt = f"""
+# === Step 1: Load your labeled dataset ===
+df = pd.read_csv("risk_data_formatted.csv")  # <-- replace with your real CSV filename
+df[["input", "output"]].to_csv("ground_truth.csv", index=False)
+
+# === Step 2: Define prompt construction ===
+def build_prompt(text):
+    return f"""
 You are a risk communication analysis assistant.
 
 Your task is to analyze the following text and extract structured risk communication data.
@@ -64,26 +70,31 @@ Source (new situation): null
 Topic and unit: heart failure risk per person
 
 Now analyze the following text:  
-
-
-"{risk_comm}"
-
+\"\"\"{text}\"\"\"
 """
 
+# === Step 3: Generate predictions ===
+pred_outputs = []
 
-# 2 Request an das LLM senden
+for text in tqdm(df["input"], desc="Generating predictions"):
     response = chat(
-        model="mistral:latest",
-        messages=[
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ],
-        options={"temperature": 0.7},  # ausprobieren, wie sich Ergebnisse verhalten
+        model="mistral",
+        messages=[{"role": "user", "content": build_prompt(text)}],
+        options={"temperature": 0.0}  # deterministic
     )
+    raw_output = response["message"]["content"].strip()
 
-    print(response)
+    # Remove markdown-style fences if they exist (e.g. ```json ... ```)
+    if raw_output.startswith("```"):
+        raw_output = raw_output.split("```")[-2].strip()
 
-# example1: The risk of heart failure is 10%. By taking our medication, it decreases to 5%. 
-# example2: The risk of heart failure is 10 in 200 people. By taking our medication, it is 50% smaller.
+    pred_outputs.append(raw_output)
+
+# === Step 4: Save predictions ===
+pred_df = pd.DataFrame({
+    "input": df["input"],
+    "output": pred_outputs
+})
+pred_df.to_csv("model_outputs.csv", index=False)
+
+print("✅ Saved ground_truth.csv and model_outputs.csv")
