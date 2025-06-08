@@ -44,7 +44,7 @@ Output requirements:
 - Output a single JSON object only.
 - Ensure that all fields from the schema are included in the JSON object, even if their value is null.
 
-Example JSON output format:
+Example JSON output format for the sentence "The risk of a heart attack in the general population is 10%, as clinical trial A reveals. Clinical trial B, however, shows that patients receiving our medical treatment have a 5% risk of getting a heart attack.":
 {{
     "risk_com": 1,
     "one_case": 0, 
