@@ -1,25 +1,33 @@
 import pandas as pd
 
 # === 1. Load the Excel file ===
-df = pd.read_excel("Data1.0.xlsx")
+df = pd.read_excel("Data2.0.xlsx")
 
 # === 2. Define the text and output fields ===
 text_col = "Unnamed: 0"
 
 output_fields = [
-    'Risk communication',
-    'Absolute risk (base case)', 'Absolute risk (new case)',
-    'Absolute number (base case)', 'Absolute number (new case)',
-    'Absolute risk difference', 'Relative risk difference',
-    'Absolute number difference',
-    'Verbal risk descriptor (base case)', 'Verbal risk descriptor (new situation)',
-    'Verbal risk descriptor (change from base to new)',
-    'Reference class size (base case: absolute number)',
-    'Reference class size (new case: absolute number)',
-    'Reference class description (base case)', 'Reference class description (new case)',
-    'Source (base case)', 'Source (new situation)', 'Topic and unit'
+    'risk_communication',
+    'single_case_base',
+    'absolute_risk_base',
+    'absolute_risk_new',
+    'absolute_number_base',
+    'absolute_number_new',
+    'absolute_risk_difference',
+    'relative_risk',
+    'absolute_number_difference',
+    'verbal_descriptor_base',
+    'verbal_descriptor_new',
+    'verbal_descriptor_change',
+    'population_size',
+    'reference_class_size_base',
+    'reference_class_size_new',
+    'reference_class_description_base',
+    'reference_class_description_new',
+    'source_base',
+    'source_new',
+    'topic_and_unit'
 ]
-
 # === 3. Format output string ===
 def format_output(row):
     lines = []
