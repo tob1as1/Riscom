@@ -15,25 +15,25 @@ Use one field per line, and write "null" if the value is not available.
 
 Here are the fields you should extract, along with a short explanation:
 
-- Risk communication: 1 if the sentence communicates risk; otherwise 0  
-- Absolute risk (base case): % or ratio before any intervention (e.g. "10%" or "30 in 1000")  
-- Absolute risk (new case): % or ratio after intervention or change  
-- Absolute number (base case): count of affected individuals before change  
-- Absolute number (new case): count of affected individuals after change  
-- Absolute risk difference: difference between base and new risk (e.g. "5%")  
-- Relative risk: relative change (e.g. "10% increase", "50% reduction")  
-- Absolute number difference: change in absolute numbers (e.g. "500 fewer")  
-- Verbal risk descriptor (base case): qualitative risk term before change (e.g. "rare")  
-- Verbal risk descriptor (new situation): qualitative term after change (e.g. "high risk")  
-- Verbal risk descriptor (change from base to new): e.g. "significantly higher"  
-- Reference class size (base case: absolute number): total population size for base case  
-- Reference class size (new case: absolute number): total population size for new case  
-- Reference class description (base case): group description (e.g. "general population")  
-- Reference class description (new case): changed group (e.g. "patients on aspirin")  
-- Population (übergeordnete Grundgesamtheit): higher-level population the risk applies to  
-- Source (base case): where the base risk data comes from (e.g. "CDC")  
-- Source (new situation): source for the changed/new risk (e.g. "NHS")  
-- Topic and unit: what the risk is about, and the time or unit it refers to (e.g. "lung cancer per year")
+- risk_communication: 1 if the sentence communicates risk; otherwise 0  
+- absolute_risk_base_case): % or ratio before any intervention (e.g. "10%" or "30 in 1000")  
+- absolute_risk_new: % or ratio after intervention or change  
+- absolute_number_base: count of affected individuals before change  
+- absolute_number_new: count of affected individuals after change  
+- absolute_risk_difference: difference between base and new risk (e.g. "5%")  
+- relative_risk: relative change (e.g. "10% increase", "50% reduction")  
+- absolute_number_difference: change in absolute numbers (e.g. "500 fewer")  
+- verbal_risk_descriptor_base: qualitative risk term before change (e.g. "rare")  
+- verbal_risk_descriptor_new: qualitative term after change (e.g. "high risk")  
+- verbal_risk_descriptor_change: e.g. "significantly higher"  
+- population_size: higher-level population the risk applies to  
+- reference_class_size_base: total population size for base case  
+- reference_class_size_new: total population size for new case  
+- reference_class_description_base: group description (e.g. "general population")  
+- reference_class_description_new: changed group (e.g. "patients on aspirin")  
+- source_base: where the base risk data comes from (e.g. "CDC")  
+- source_new: source for the changed/new risk (e.g. "NHS")  
+- topic_and_unit: what the risk is about, and the time or unit it refers to (e.g. "lung cancer per year")
 
 ---
 
