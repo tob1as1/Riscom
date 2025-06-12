@@ -1,29 +1,65 @@
 body {
-  font-family: sans-serif;
+  width: 320px;
   padding: 16px;
-  background-color: #ffffff;
-  width: 300px;
+  margin: 0;
+  border: 4px solid #ccc; /* Standardrahmen */
+  border-radius: 12px;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fefefe;
+  box-sizing: border-box;
+  color: #333;
+}
+/*Hier soll Farbe des Rahmens geändert werden je nachdem wie Server Risikokommunikation bewertet
+/* Kommunikation gut */
+body.good {
+  border-color: #28a745; 
 }
 
-button {
-  padding: 10px 16px;
-  font-size: 14px;
+/* Kommunikation schlecht */
+body.bad {
+  border-color: #dc3545; 
+}
+/* Kommunikation Fragwürdig  */
+body.good {
+  border-color: #ddff00; 
+}
+/* Keine Risikokommunikation */
+body.good {
+  border-color: #796b6b; 
+}
+/* Titel */
+h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+/* Button */
+#analyze {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
+  font-size: 16px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-button:hover {
+#analyze:hover {
   background-color: #0056b3;
 }
 
+/* Ergebnisfeld */
 #output {
-  margin-top: 20px;
+  margin-top: 16px;
+  padding: 12px;
+  background-color: #f8f9fa;
+  border: 1px dashed #aaa;
+  border-radius: 6px;
+  font-size: 14px;
   white-space: pre-wrap;
-  background: #fff;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
+  min-height: 60px;
 }
+ 
