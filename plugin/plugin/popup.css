@@ -32,7 +32,21 @@ h2 {
   font-size: 18px;
   margin-bottom: 12px;
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1e1e1e;
+    color: #eee;
+  }
 
+  #output {
+    background-color: #2a2a2a;
+    border-color: #444;
+  }
+
+  #analyze {
+    background-color: #0056b3;
+  }
+}
 /* Button */
 #analyze {
   display: block;
@@ -48,7 +62,7 @@ h2 {
 }
 
 #analyze:hover {
-  background-color: #0056b3;
+  background-color: #007bff;
 }
 
 /* Ergebnisfeld */
