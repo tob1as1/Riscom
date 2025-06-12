@@ -3,7 +3,7 @@ body {
   padding: 16px;
   margin: 0;
   border: 4px solid #007bff; /* Standardrahmen */
-  border-radius: 12px;
+  border-radius: 6px;
   font-family: "Segoe UI", sans-serif;
   background-color: #fefefe;
   box-sizing: border-box;
@@ -31,21 +31,6 @@ body.good {
 h2 {
   font-size: 18px;
   margin-bottom: 12px;
-}
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #1e1e1e;
-    color: #eee;
-  }
-
-  #output {
-    background-color: #2a2a2a;
-    border-color: #444;
-  }
-
-  #analyze {
-    background-color: #0056b3;
-  }
 }
 /* Button */
 #analyze {
