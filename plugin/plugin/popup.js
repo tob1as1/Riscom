@@ -6,10 +6,11 @@ document.getElementById("analyze").addEventListener("click", () => {
         return;
       }
 
-      // Dein Prompt-Template
-      const prompt = `[INST] Please extract the base risk, the new absolute risk, and the relative risk from the following sentence:\n\n${response.text}\n\nFormat:\nbase risk: ...\nnew absolute risk: ...\nrelative risk: ...\n[/INST]`;
+      const prompt = response.text;
 
-      fetch("http://localhost:8000/analyze", { /*"http://193.196.39.49:8000/analyze" Das ist eigentlciher Server*/
+      // Originaler Server-Aufruf (auskommentiert)
+      /*
+      fetch("http://193.196.39.49:8000/analyze", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: prompt })
@@ -22,6 +23,22 @@ document.getElementById("analyze").addEventListener("click", () => {
         document.getElementById("output").innerText = "❌ Fehler beim Abrufen der API.";
         console.error(err);
       });
+      */
+
+      // Dummy-Funktion als Ersatz für Server-Antwort
+      function analyzeTextDummy(text) {
+        return new Promise((resolve) => {
+          setTimeout(() => {
+            resolve({ response: `Simulierte Antwort für: "${text}"` });
+          }, 300); // Verzögerung simuliert Netzwerk
+        });
+      }
+
+      // Dummy-Aufruf
+      analyzeTextDummy(prompt).then(data => {
+        document.getElementById("output").innerText = data.response;
+      });
+
     });
   });
 });
