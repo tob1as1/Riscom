@@ -3,7 +3,7 @@
   "name": "Risk Analyzer",
   "version": "1.0",
   "description": "Analysiert markierte Texte hinsichtlich Risikokommunikation",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting","tabs"],
   "action": {
     "default_icon": {
       "16": "icon.png"
@@ -16,5 +16,4 @@
       "js": ["content.js"]
     }
   ]
-  
 }
