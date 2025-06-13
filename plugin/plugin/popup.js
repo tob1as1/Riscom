@@ -9,7 +9,7 @@ document.getElementById("analyze").addEventListener("click", () => {
       // Dein Prompt-Template
       const prompt = `[INST] Please extract the base risk, the new absolute risk, and the relative risk from the following sentence:\n\n${response.text}\n\nFormat:\nbase risk: ...\nnew absolute risk: ...\nrelative risk: ...\n[/INST]`;
 
-      fetch("http://193.196.39.49:8000/analyze", {
+      fetch("http://localhost:8000/analyze", { /*"http://193.196.39.49:8000/analyze" Das ist eigentlciher Server*/
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: prompt })
