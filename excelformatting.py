@@ -1,7 +1,7 @@
 import pandas as pd
 
 # === 1. Load the Excel file ===
-df = pd.read_excel("Pumped_version1506.xlsx")
+df = pd.read_excel("Synth10.xlsx")
 
 # === 2. Define the text and output fields ===
 text_col = "Unnamed: 0"
@@ -48,6 +48,6 @@ formatted_df["output"] = df.apply(format_output, axis=1)
 formatted_df = formatted_df.dropna(subset=["input"])
 
 # === 5. Save to CSV ===
-output_path = "risk_data_formatted.csv"
+output_path = "pumped_risk_data_formatted.csv"
 formatted_df.to_csv(output_path, index=False)
 print(f"✅ Saved: {output_path} with 'input' and 'output' columns including nulls.")
